@@ -1,0 +1,28 @@
+Variables:
+R = rock
+P = paper
+S = scissors
+
+Player 1 = X
+Player 2 = Y
+
+Prompt players to select R, P or S.
+If X or Y = R,
+  Then determine if  X or Y = P.
+	If either X or Y = R and X or Y = P,
+Then X or Y = P wins.
+
+If X or Y = R,
+  Then determine if X or Y = S.
+  	 If either X or Y = R and X or Y = S,
+Then X or Y = R wins.
+
+If neither X or Y = R,
+  Then determine if either X or Y = S.
+     If either X or Y = S and either X or Y = P,
+Then X or Y = S wins.
+
+If X or Y are both P, R or S,
+Then neither X or Y wins.
+
+REPEAT
